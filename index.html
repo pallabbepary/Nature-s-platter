@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,15 +15,16 @@
     700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <style>
         .font-sora {
-    font-family: "Sora", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+            font-family: "Sora", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
         }
+
         .font-poppins {
-        font-family: "Poppins", serif;
-        font-weight: 100;
-        font-style: normal;
+            font-family: "Poppins", serif;
+            font-weight: 100;
+            font-style: normal;
         }
     </style>
     <!-- fontawesome -->
@@ -32,35 +34,198 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>nature's platter</title>
 </head>
+
 <body class="font-sora">
-    <header class="bg-gradient-to-b from-orange-50 to-orange-50 pt-10">
-        <nav class="">
-            <section class="flex items-center justify-around">
-                <div>
-                    <img src="./c2-assets/logo-header.png" alt="">
+    <header class="bg-gradient-to-b from-white to-orange-50 pt-10 ">
+        <nav class="max-w-screen-2xl mx-auto">
+            <section class="md:flex items-center justify-around">
+                <div class="px-4 md:px-0 flex justify-between">
+                    <div>
+                        <img class="" src="./c2-assets/logo-header.png" alt="logo-header">
+                        <img class="md:hidden" src="./c2-assets/mobile- logo-footer.png" alt="">
+                    </div>
+                    <a href="#"><i class="fa-solid fa-bars text-green-600 text-3xl md:hidden"></i></a>
                 </div>
                 <div>
-                    <ul class="flex space-x-8">
-                        <li><a href="#">Product</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact us</a></li>
+                    <ul class="md:flex space-x-8 hidden">
+                        <li class="text-xl"><a href="#">Product</a></li>
+                        <li class="text-xl"><a href="#">Services</a></li>
+                        <li class="text-xl"><a href="#">Contact us</a></li>
                     </ul>
                 </div>
-                <div class="flex items-center space-x-8">
+                <div class="md:flex items-center space-x-8 hidden">
                     <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
                     <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
                     <div class="space-x-3">
-                        <button class="btn btn-outline border-green-500">Login</button>
-                        <button class="text-white  bg-green-600 py-3 px-8 rounded-xl">Registre</button>
+                        <button class="btn btn-outline border-green-500 text-xl">Login</button>
+                        <button class="text-white  bg-green-600 py-3 px-8 rounded-xl text-xl">Registre</button>
                     </div>
                 </div>
-                
+
             </section>
         </nav>
+        <section class="">
+            <div class="">
+                <div class="text-center">
+                    <h1 class="text-3xl md:text-6xl font-semibold mt-12 md:mt-24">
+                        Freshness <span class="text-green-600">You Can <br> Count</span> On, Prices You’ll Love!
+                    </h1>
+                    <p class="text-base md:text-xl text-[#111111] mt-4 md:mt-8">Shop your daily essentials at unbeatable
+                        prices. From fresh produce to pantry<br>staples, we’ve got you
+                        covered every day!
+                    </p>
+                </div class>
+                <div class="mt-4 md:mt-9">
+                    <img class="w-auto mx-auto" src="./c2-assets/hero-vegetables.png" alt="">
+                </div>
+            </div>
+        </section>
     </header>
 
-    <main></main>
+    <main>
+        <section class="max-w-screen-2xl mx-auto">
+            <h1 class="text-green-600 font-semibold text-4xl mt-32 px-4 md:px-0 ">Services</h1>
+            <div class="grid md:grid-cols-3 gap-7 text-center px-4 md:px-0 mt-12">
+                <div class="bg-[#EFEBE3] px-8 py-10 rounded-xl space-y-5">
+                    <div class="bg-white p-6 border rounded-full w-max h-max mx-auto">
+                        <img class="" src="./c2-assets/service.png" alt="">
+                    </div>
+                    <h3 class="font-semibold text-2xl">24/7 Services </h3>
+                    <p class="text-xl">"Delicious, wholesome, and fresh—Nature’s Platter offers 24/7 food services,
+                        bringing you nutritious
+                        and flavorful meals anytime, anywhere."</p>
+                </div>
+                <div class="bg-[#EFEBE3] px-8 py-10 rounded-xl space-y-5">
+                    <img class="bg-white p-6 rounded-full w-auto mx-auto" src="./c2-assets/delivery.png" alt="">
+                    <h3 class="font-semibold text-2xl">Fast Delivery </h3>
+                    <p class="text-xl">"Nature’s Platter ensures fast and fresh delivery, bringing delicious, wholesome
+                        meals straight to your doorstep in no time!" 🚀🥗</p>
+                </div>
+                <div class="bg-[#EFEBE3] px-8 py-10 rounded-xl space-y-5">
+                    <img class="bg-white p-6 rounded-full w-auto mx-auto" src="./c2-assets/healthy.png" alt="">
+                    <h3 class="font-semibold text-2xl">Healthy Products</h3>
+                    <p class="text-xl">"Nature’s Platter – Offering a range of healthy, natural, and nutritious products
+                        made with the finest ingredients to support your well-being.""</p>
+                </div>
+            </div>
+        </section>
+        <section class="bg-[#EFEBE3] mt-36 mb-36">
+            <div class="max-w-screen-2xl mx-auto pb-12 md:pb-32 px-2 md:px-0">
+                <div class="pt-12 md:pt-32">
+                    <h1 class="text-green-600 font-semibold text-2xl md:text-4xl">Popular Products</h1>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-5 mt-5 md:mt-12">
+                    <div class="bg-gradient-to-br from-green-500 to-green-100 col-span-2 md:col-span-1 md:row-span-3 rounded-xl px-5">
+                        <h1 class="text-white text-3xl font-bold pt-4">30% off</h1>
+                        <p class="text-base">Discover a world of treats, toys, and essentials handpicked for </p>
+                        <button class="bg-white px-5 py-2 mt-2 rounded-xl font-semibold">Buy Now</button>
+                        <img src="./c2-assets/vegetable-offer.png" alt="">
+                    </div>
+                    <div class="flex bg-white rounded-xl px-1 md:px-4 py-2 md:py-0 space-x-2 md:space-x-5 items-center">
+                        <img class="bg-[#EFEBE3] rounded-lg" src="./c2-assets/onion.png" alt="">
+                        <div>
+                            <div class="flex items-center gap-1">
+                                <i class="fa-solid fa-star text-orange-300"></i>
+                                <p class="font-medium md:text-base">4.5</p>
+                            </div>
+                            <p class="font-bold text-sm md:text-lg">Onion 1 KG</p>
+                            <p class="font-semibold text-sm md:text-base">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="flex bg-white rounded-xl px-1 md:px-4 py-2 md:py-0 space-x-2 md:space-x-5 items-center">
+                        <img class="bg-[#EFEBE3] rounded-lg" src="./c2-assets/tomato.png" alt="">
+                        <div>
+                            <div class="flex items-center gap-1">
+                                <i class="fa-solid fa-star text-orange-300"></i>
+                                <p class="font-medium md:text-base">4.5</p>
+                            </div>
+                            <p class="font-bold text-sm md:text-lg">Tomato 500 g</p>
+                            <p class="font-semibold text-sm md:text-base">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="flex bg-white rounded-xl px-1 md:px-4 py-2 md:py-0 space-x-2 md:space-x-5 items-center">
+                        <img class="bg-[#EFEBE3] rounded-lg" src="./c2-assets/potato.png" alt="">
+                        <div>
+                            <div class="flex items-center gap-1">
+                                <i class="fa-solid fa-star text-orange-300"></i>
+                                <p class="font-medium md:text-base">4.5</p>
+                            </div>
+                            <p class="font-bold text-sm md:text-lg">Patato 1 KG</p>
+                            <p class="font-semibold text-sm md:text-base">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="flex bg-white rounded-xl px-1 md:px-4 py-2 md:py-0 space-x-2 md:space-x-5 items-center">
+                        <img class="bg-[#EFEBE3] rounded-lg" src="./c2-assets/tomato.png" alt="">
+                        <div>
+                            <div class="flex items-center gap-1">
+                                <i class="fa-solid fa-star text-orange-300"></i>
+                                <p class="font-medium md:text-base">4.5</p>
+                            </div>
+                            <p class="font-bold text-sm md:text-lg">Tomato 500 g</p>
+                            <p class="font-semibold text-sm md:text-base">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="flex bg-white rounded-xl px-1 md:px-4 py-2 md:py-0 space-x-2 md:space-x-5 items-center">
+                        <img class="bg-[#EFEBE3] rounded-lg" src="./c2-assets/onion.png" alt="">
+                        <div>
+                            <div class="flex items-center gap-1">
+                                <i class="fa-solid fa-star text-orange-300"></i>
+                                <p class="font-medium md:text-base">4.5</p>
+                            </div>
+                            <p class="font-bold text-sm md:text-lg">Onion 1 KG</p>
+                            <p class="font-semibold text-sm md:text-base">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="flex bg-white rounded-xl px-1 md:px-4 py-2 md:py-0 space-x-2 md:space-x-5 items-center">
+                        <img class="bg-[#EFEBE3] rounded-lg" src="./c2-assets/tomato.png" alt="">
+                        <div>
+                            <div class="flex items-center gap-1">
+                                <i class="fa-solid fa-star text-orange-300"></i>
+                                <p class="font-medium md:text-base">4.5</p>
+                            </div>
+                            <p class="font-bold text-sm md:text-lg">Tomato 500 g</p>
+                            <p class="font-semibold text-sm md:text-base">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="flex bg-white rounded-xl px-1 md:px-4 py-2 md:py-0 space-x-2 md:space-x-5 items-center">
+                        <img class="bg-[#EFEBE3] rounded-lg" src="./c2-assets/onion.png" alt="">
+                        <div>
+                            <div class="flex items-center gap-1">
+                                <i class="fa-solid fa-star text-orange-300"></i>
+                                <p class="font-medium md:text-base">4.5</p>
+                            </div>
+                            <p class="font-bold text-sm md:text-lg">Onion 1 KG</p>
+                            <p class="font-semibold text-sm md:text-base">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="flex bg-white rounded-xl px-1 md:px-4 py-2 md:py-0 space-x-2 md:space-x-5 items-center">
+                        <img class="bg-[#EFEBE3] rounded-lg" src="./c2-assets/potato.png" alt="">
+                        <div>
+                            <div class="flex items-center gap-1">
+                                <i class="fa-solid fa-star text-orange-300"></i>
+                                <p class="font-medium md:text-base">4.5</p>
+                            </div>
+                            <p class="font-bold text-sm md:text-lg">Patato 1 KG</p>
+                            <p class="font-semibold text-sm md:text-base">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="hidden md:flex bg-white rounded-xl px-1 md:px-4 py-2 md:py-0 space-x-2 md:space-x-5 items-center">
+                        <img class="bg-[#EFEBE3] rounded-lg" src="./c2-assets/potato.png" alt="">
+                        <div>
+                            <div class="flex items-center gap-1">
+                                <i class="fa-solid fa-star text-orange-300"></i>
+                                <p class="font-medium md:text-base">4.5</p>
+                            </div>
+                            <p class="font-bold md:text-lg">Patato 1 KG</p>
+                            <p class="font-semibold md:text-base">$39.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer></footer>
 </body>
+
 </html>
